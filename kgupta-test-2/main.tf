@@ -1,5 +1,5 @@
 module "k8s_cluster" {
-  source = "git@github.com:kaguptas/TF-Module-EKS.git?ref=v0.2"
+  source = "git@github.com:kaguptas/TF-Module-EKS.git?ref=v0.13"
 
   aws_region = var.aws_region
 

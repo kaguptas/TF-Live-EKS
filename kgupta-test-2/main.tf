@@ -3,11 +3,11 @@ module "k8s_cluster" {
 
   aws_region = var.aws_region
 
-  cluster_name = var.cluster_name
+  cluster_name    = var.cluster_name
   cluster_version = var.cluster_version
 
-  env             = var.env
-  owner           = var.owner
+  env   = var.env
+  owner = var.owner
 
   vpc_id                = var.vpc_id
   vpc_subnets_private   = var.vpc_subnets_private
